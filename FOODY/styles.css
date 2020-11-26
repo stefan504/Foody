@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+font-family: 'Mukta', sans-serif;
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+p{
+  font-weight:300;
+}
+
+body{
+  min-height:1300px;
+}
+
+.banner{
+  position:relative;
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+}
+.banner .content{
+max-height: 900px;
+text-align:center;
+}
+.banner .content h1{
+  font-size:5em;
+  color:#fff;
+}
+.banner .content p{
+  font-size:1em;
+  color:#fff;
+}
+.btn{
+  font-size:1em;
+  color:#fff;
+  background-color: #ff0157;
+  display: inline-block;
+  padding:10px 30px;
+  text-transform:uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition:0.5s
+}
+.btn:hover{
+  letter-spacing: 6px;
+}
+
+header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding:40px 100px;
+  z-index:1000;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  transition: 0.5s;
+}
+header .logo{
+  color:#fff;
+  font-weight:900;
+  font-size:3em;
+  text-decoration: none;
+}
+header .logo span{
+  color:red;
+}
+header .navigation{
+  display:flex;
+  position: relative;
+}
+header .navigation li{
+  list-style:none;
+  padding-left:30px;
+}
+.list:hover{
+  border-radius: 1em;
+  padding:5px;
+  background-color: lightgray;
+  transition:.2s
+}
+header .navigation li a{
+  text-decoration: none;
+  color:#fff;
+}
+.title{
+  display: flex;
+  justify-content: center;
+padding-top:4rem;
+font-size:3rem;
+
+}
+.box{
+  display:flex;
+  justify-content: space-between;
+  padding-top:3rem;
+}
+.img{
+  width: 900px;
+  height: auto;
+  margin:auto;
+  padding:3rem;
+}
+span{
+  color:Red;
+  font-weight:2rem;
+  font-size:3rem;
+
+}
+
+#they{
+  display: flex;
+  font-size:3rem;
+  justify-content: center;
+}
+.boxx{
+
+  width:auto;
+  display: inline-block;
+  max-width:400px;
+  min-height:600px;
+  background-color: lightgray;
+
+}
+
+.slika{
+padding:2rem;
+width:400px;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:4rem;
+}
+.theysaid{
+  background-image: url(images/bg2.jpg);
+}
+.rekli{
+  color:White;
+}
